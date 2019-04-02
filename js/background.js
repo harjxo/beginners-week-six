@@ -17,15 +17,15 @@ $( document ).ready(function(){
     var randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
     // this creates a string that css will understand to be a background url
     var imageUrl = "url('./images/" + randomBackground + ".jpg')"
-    
-    
+    $('body').css("background",imageUrl)
+
     // 2. using jquery, change the image url of the body background to the new one saved above
 
     // EXTENSION TASK!
     // 3. Change the text of the 'span' to be that of the photographer
     //   (hint, you should re-use randomBackgroun)
     // Double points if you replace '-' between their names with a space
+$ (.photographer)
 
-    
-  }) 
+  })
 }) // here endeth the function
